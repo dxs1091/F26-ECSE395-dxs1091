@@ -51,13 +51,13 @@ The code block for this can be found in `Extra Credit.md`.
 This assignment took all 50 minutes of Friday's lab to complete and another 80 minutes completing the lab assignment, the code for extra credit, and the comments. Also, I'm still figuring out how to use GitHub, but after finishing this lab, I'm faster at it. I'll only get better.
 
 **2. What level of difficulty would you associate with this assignment?**
-Low
+Low, just time-consuming.
 
 **3. If medium/high difficulty, what aspect did you find most difficult?**
 N/A.
 
 **4. How comfortable do you currently feel with the course content?**
-I feel fairly confident in this course' technical demand. I don't 
+I feel fairly confident in this course' technical demand. The time spent today has me concerned that this course will be more time demanding than expected.
 
 **5. Any additional feedback for the instructors?**
-None.
+I would suggest having one centralized place where the instructions are. I'm noticing that I get confused with so many instructions/steps (e.g. GitHub, PDF documents, etc.). For example, in one area it says to name the file `esp32 basics.md` and in another it says `esp32_basics.md`. I may be nitpicking, but it can cause headaches for graders and students if left overlooked.
