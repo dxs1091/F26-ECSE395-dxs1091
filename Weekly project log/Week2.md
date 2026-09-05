@@ -16,11 +16,11 @@
 - When the meeting ends at 8 PM, I followed up with Megan to retrieve necessary items, including images of the laundry area and some unanswered questions she was unsure of. (9/4)
 
 #### Images
-![General Laundry Area](generallaundryroom2_ecse395.png)
-![Another picture of the General Laundry Area](generallaundryarea_ecse395.png)
-![Three-Prong Outlet](threeprongoutletreference_ecse395.png)
-![Washer Model Information](washermodelnum_ecse395.png)
-![Dryer Model Information](dryermodelnum_ecse395.png)
+![General Laundry Area](generallaundryroom2_ecse395.jpeg)
+![Another picture of the General Laundry Area](generallaundryarea_ecse395.jpeg)
+![Three-Prong Outlet](threeprongoutletreference_ecse395.jpeg)
+![Washer Model Information](washermodelnum_ecse395.jpeg)
+![Dryer Model Information](dryermodelnum_ecse395.jpeg)
 
 
 
