@@ -7,18 +7,18 @@
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   // TODO: Define your baud rates
-  // Serial.begin(_____); // Start the Serial connection
+  Serial.begin(115200); // Start the Serial connection
 }
 
 void loop() {
   // TODO: Define your text output
-  // Serial.println("_____"); // Print the words to the Serial Monitor.
+  Serial.println("The baud rate is 115200."); // Print the words to the Serial Monitor.
   
   // TODO: Set up your delay in milliseconds
   digitalWrite(LED_PIN, HIGH); // LED On
-  // delay(_____); // Speed in milliseconds
+  delay(500); // Speed in milliseconds
   digitalWrite(LED_PIN, LOW); // LED Off
-  // delay(_____); // Speed in milliseconds
+  delay(500); // Speed in milliseconds
 }
 ```
 
