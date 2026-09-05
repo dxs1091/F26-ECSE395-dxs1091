@@ -8,4 +8,4 @@ ECSE 395 semester project. Each week, we will document the work completed, as we
 | Weeks   | What we did                                                                                  |
 | ------- | --------------------------------------------------------------------------------------------- |
 | [Week 1](Week1.md)  | Formed our team (Team Fresh), ranked problem statements, contacted our stakeholder, drafted our team contract, and completed Lab 1 (Markdown/GitHub basics) |
-| Week 2(Week2.md)  | Scheduled and conducted our need-finding interview with Megan, gathered laundry area photos and equipment specs, asked insightful questions, completed Lab 2, and documented meeting notes.                                                                      |
+| [Week 2](Week2.md)  | Scheduled and conducted our need-finding interview with Megan, gathered laundry area photos and equipment specs, asked insightful questions, completed Lab 2, and documented meeting notes.                                                                      |
