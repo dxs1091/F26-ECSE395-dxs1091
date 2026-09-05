@@ -32,6 +32,8 @@
 <details>
 <summary>Meetings notes, written by Dmitri Berger: (9/4)</summary>
 
+Met for exactly 62 minutes, from 6:58 PM to 8 PM.
+
 * Has less trouble moving clothes from washer to dryer
 Dryer beeps, but is downstair
 * Can leave clothes in the dryer for over a day
