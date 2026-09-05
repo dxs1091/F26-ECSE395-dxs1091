@@ -31,8 +31,6 @@ This assignment marks our first time working with ESP32s in this class. The task
 13. I clicked Build and Upload, confirmed that the output was `The baud rate is 115200.`.
 14. On top of confirming the text output in the Serial Monitor, I also confirmed that the ESP32 was blinking.
 
-![Video of Regular Blinking LED Script Working](regularblinking.mp4)
-
 ### At Home
 Wanting to be more creative and make the link pattern do something more meaningful than just flashing, I thought using my own name to apply Morse Code would be fun. I'm glad I did it because I ended up practicing using variables, which may come in handy later on.
 15. I changed the serial message for a second time to a more fitting one: `I taught an ESP32 (and myself) to say my name in Morse Code!`.
@@ -41,8 +39,6 @@ Wanting to be more creative and make the link pattern do something more meaningf
 
 ##### Extra Credit Submission
 The code block for this can be found in `Extra Credit Submission.md`.
-
-![Video of Morse Code Script Working](extracredit_morsecode.mp4)
 
 ---
 
