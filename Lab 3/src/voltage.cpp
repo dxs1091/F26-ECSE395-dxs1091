@@ -1,25 +1,32 @@
-#include <Arduino.h>
+/*#include <Arduino.h>
 
-// function prototype
-int voltage(float analogvalue);
+float voltage(float analogvalue);
 
-// Put your potentiometer pin assignment here
-const int sensorPin = 0;
+// dxs1091: Pin assignment 
+const int sensorPin = A1;
 
 void setup() {
     Serial.begin(115200);
 }
 
 void loop() {
-    // This is the line for printing in the serial
-    Serial.println(voltage(analogRead(sensorPin)));
-    delay(50); 
+    // dxs1091: Reading/storing the raw analog value from A1
+    int sensorValue = analogRead(sensorPin);
+
+    // dxs1091: Converting the value from above into an actual voltage
+    float sensorVoltage = voltage(sensorValue);
+
+    // dxs1091: Printing voltage to Serial Monitor
+    Serial.println(sensorVoltage);
+
+    // dxs1091: Increased delay to make output more readible
+    delay(100); 
 }
 
-// function to calculate output voltage
-int voltage(float analogvalue){
-    int voltage;
-    //analogRead(sensorPin); gives us 0-4095 values
-    //use the formula (Analog value*Reference voltage) / (Sensor Resolution) to calculate the output voltage
+// dxs1091: This function calculates output voltage
+float voltage(float analogvalue){
+    float voltage;
+    // dxs1091: Applying the formula (AnalogValue * ReferenceVoltage) / MaxSensorValue
+    voltage = (analogvalue * 3.3) / 4095.0;
     return voltage;
-}
+}*/
