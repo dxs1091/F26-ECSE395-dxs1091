@@ -26,5 +26,5 @@ Email: could be screenshot (9/18)
 ![Concept Review Scheduling Email](conceptemail.png)
 
 ### Group Contributions
-— Presented Presented Need-Finding presentation with rest of class (9/16)
+- Presented Need Finding Presentation with rest of class (9/16)
 - Gave availability for concept meeting with Megan (9/18)
