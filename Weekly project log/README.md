@@ -9,4 +9,5 @@ ECSE 395 semester project. Each week, we will document the work completed, as we
 | ------- | --------------------------------------------------------------------------------------------- |
 | [Week 1](Week1.md)  | Formed our team (Team Fresh), ranked problem statements, contacted our stakeholder, drafted our team contract, and completed Lab 1 (Markdown/GitHub basics) |
 | [Week 2](Week2.md)  | Scheduled and conducted our need-finding interview with Megan, gathered laundry area photos and equipment specs, asked insightful questions, completed Lab 2, and documented meeting notes.                                                                      |
-| [Week 3](Week3.md)  | Reading and outputting analog signal from potentiometer, reading voltage, and demoing digital signal acquisition with the kit's touch sensor
+| [Week 3](Week3.md)  | Reading and outputting analog signal from potentiometer, reading voltage, and demoing digital signal acquisition with the kit's touch sensor |
+| [Week 4](Week4.md)  | Connected actuators to the microcontroller, working with, and learning about servo motors and DC gear motors (TT motors) |

@@ -2,8 +2,8 @@
 
 // TODO: Define your pins
 // Hint: Look at your wiring. Which pins did you use?
-const int MOTOR_B_1A = A1; // Replace 0 with your pin number
-const int MOTOR_B_1B = A0; // Replace 0 with your pin number
+const int MOTOR_B_1A = A1; 
+const int MOTOR_B_1B = A0; 
 
 
 void setup() {

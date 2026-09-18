@@ -1,4 +1,4 @@
-// Extra Credit
+/*// Extra Credit
 #include <Arduino.h>
 
 // Pin definitions for the two motor driver input pins (B-1A, B-1B)
@@ -30,4 +30,4 @@ void loop() {
   }
 
   // Loop repeats automatically -> continuous speed up/down cycle, single direction
-}
+}*/
