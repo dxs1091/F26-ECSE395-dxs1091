@@ -1,4 +1,4 @@
-#include <ESP32Servo.h>
+/*#include <ESP32Servo.h>
 // Don't forget to include the library!!
 // From PlatfromIO library, search for ESP32 servo and add it to the project
 
@@ -30,7 +30,7 @@ void loop() {
   }
 
   // Rotate the servo from 180 to 0 degrees
-  for (int angle = 180; angle <= 0; angle--) {
+  for (int angle = 180; angle >= 0; angle--) {
     int pulseWidth;
     // the map function is a puction that maps 0 degrees to 500 pulse width, and 180 degrees to 2500 pulse width
     // map(angle, min angle, max angle, min pulse width, max pulse width)
@@ -38,4 +38,4 @@ void loop() {
     myServo.writeMicroseconds(pulseWidth);
     delay(15);
   }
-}
+}*/
