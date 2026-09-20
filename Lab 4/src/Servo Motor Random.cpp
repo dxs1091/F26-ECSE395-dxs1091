@@ -1,46 +1,45 @@
 
 #include <ESP32Servo.h>
 
-// Define the servo and the pin it is connected to
+// Servo pin set to A0
 Servo myServo;
 const int servoPin = A0;
 
 // Define the minimum and maximum pulse widths for the servo
 const int minPulseWidth = 500;  // 0.5 ms
-const int maxPulseWidth = 2500; // 2.5 ms
+const int maxPulseWidth = 2500; // 2.5 s
 
 void setup() {
-  // Attach the servo to the specified pin and set its pulse width range
+  // Attach the servo to A0
   myServo.attach(servoPin, minPulseWidth, maxPulseWidth);
 
   // Set the PWM frequency for the servo
-  myServo.setPeriodHertz(50); // Standard 50Hz servo
+  myServo.setPeriodHertz(50);
 
   Serial.begin(115200);
   randomSeed(analogRead(A5));
 }
 
 void loop() {
-  // Pick a random angle between 0 and 180 degrees (inclusive)
-  int angle = random(0, 181);  // random(min, max) is exclusive of max, so use 181 to include 180
+  // Picks a random angle between 0 and 180 degrees (inclusive)
+  int angle = random(0, 181);  // using 181 to include 180
 
-  // Pick a random delay between 200ms and 2000ms so movement speed/pause varies each time
+  // Picks a random delay between 200ms and 2000ms so movement speed/pause varies each time
   int randomDelay = random(200, 2001);
 
-  // Convert the random angle to a pulse width using the same mapping as before
+  // Converts the random angle to a pulse width using the same mapping as before
   int pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
 
-  // Move the servo directly to the new random angle (no gradual sweep -
-  // this is what makes the motion "random" rather than linear)
+  // Moves the servo directly to the new random angle
   myServo.writeMicroseconds(pulseWidth);
 
-  // Print the chosen angle and delay to Serial Monitor for observation/debugging
+  // Some messages for the Serial Monitor to verify
   Serial.print("Moved to angle: ");
   Serial.print(angle);
   Serial.print(" | Waiting: ");
   Serial.print(randomDelay);
   Serial.println(" ms");
 
-  // Hold at this position for the randomly chosen delay before picking a new one
+  // Fulfills the random delay requirement to keep the randomness going
   delay(randomDelay);
 }

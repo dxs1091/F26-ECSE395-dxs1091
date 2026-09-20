@@ -1,15 +1,14 @@
-/*#include <Arduino.h>
+#include <Arduino.h>
 
-// TODO: Define your pins
-// Hint: Look at your wiring. Which pins did you use?
+// dxs1091: Set pins to A1 and A0
 const int MOTOR_B_1A = A1;
 const int MOTOR_B_1B = A0; 
 
 void setup() {
-  // TODO: Initialize Serial communication
+  // dxs1091: Set baud rate to 115200
   Serial.begin(115200);
 
-  // TODO: Set your motor pins as OUTPUTs
+  // dxs1091: Set motor pins as outputs
   pinMode(MOTOR_B_1A, OUTPUT);
   pinMode(MOTOR_B_1B, OUTPUT); 
 
@@ -17,42 +16,43 @@ void setup() {
 }
 
 void loop() {
-  // --- SECTION 1: Clokwise (5s) ---
+  // Clockwise sequence
   Serial.println("Clockwise...");
   
-  // TODO: Write HIGH to one pin and LOW to the other
+  // dxs1091: Wrote HIGH to B-1A and LOW to B-1B
   digitalWrite(MOTOR_B_1A, HIGH);
   digitalWrite(MOTOR_B_1B, LOW);
 
+  // dxs1091: Set delay to 5s
   delay(5000);
 
-  // --- SECTION 2: Stop (2s) ---
+  // dxs1091: Stops motion
   Serial.println("Stopping...");
   
-  //TODO: Turn off the motor
+  // dxs1091: Set all motors to LOW to turn off motors
   digitalWrite(MOTOR_B_1A, LOW);
   digitalWrite(MOTOR_B_1B, LOW);
 
+  // dxs1091: Set delay to 2s
   delay(2000);
 
-  // --- SECTION 3: Counterclockwise (5s) ---
+  // Counterclockwise sequence
   Serial.println("Counterclockwise...");
   
-  // TODO: Write HIGH to one pin and LOW to the other
+  // dxs1091: Writing HIGH to B-1B this time to reverse direction to counterclockwise
   digitalWrite(MOTOR_B_1A, LOW);
   digitalWrite(MOTOR_B_1B, HIGH);
 
+  // dxs1091: Set delay to 5s
   delay(5000);
 
-  // --- SECTION 4: Stop (2s) ---
+  // dxs1091: Stops motion
   Serial.println("Stopping...");
   
-  // TODO: Turn off the motor
+  // dxs1091: Set all motors to LOW to turn off motors
   digitalWrite(MOTOR_B_1A, LOW);
   digitalWrite(MOTOR_B_1B, LOW);
 
+  // dxs1091: Set delay to 2s
   delay(2000);
-}*/
-
-// Note:
-// - Please uncomment the necessary lines and fill in the blank to complete the assignment.
+}

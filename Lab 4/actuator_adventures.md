@@ -73,7 +73,7 @@ In total, this assignment took me 181 minutes to complete.
 This lab was medium difficulty. 
 
 **3. If medium/high difficulty, what aspect did you find most difficult?**
-It was time-intensive and required much more setup compared to previous labs. It also took more time because there were more files to take care of. Typing up this report and formatting it also takes significant time.
+It was time-intensive and required much more setup compared to previous labs. It also took more time because there were more files to take care of. Typing up this report and formatting it also takes significant time. For this specific lab, fishing for the right functions for `Servo Motor Random.cpp` took so much more time than it should've, but I imagine it would've taken longer if they didn't exist. I'm just glad I found them.
 
 **4. How comfortable do you currently feel with the course content?**
 I'm finding that this class is taking up a lot of time whether it's stakeholder-related or lab-related. The technical demand isn't so much a worry. However, the time commitment this class asks for is high, not necessarily the difficulty.

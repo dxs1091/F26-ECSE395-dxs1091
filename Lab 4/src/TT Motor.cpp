@@ -1,21 +1,23 @@
-/*#include <Arduino.h>
+#include <Arduino.h>
 
-// TODO: Define your pins
-// Hint: Look at your wiring. Which pins did you use?
+// Pin definitions for B-1A and B-1B
 const int MOTOR_B_1A = A1; 
 const int MOTOR_B_1B = A0; 
 
 
 void setup() {
 
+  // Set pins as outputs
   pinMode(MOTOR_B_1A, OUTPUT);
   pinMode(MOTOR_B_1B, OUTPUT);  
 
-  analogWrite(MOTOR_B_1A, 0);
-  analogWrite(MOTOR_B_1B, 230);
+  // Reverses initial code to reverse which direction the motor spins
+  analogWrite(MOTOR_B_1A, 0); // originally 250
+  analogWrite(MOTOR_B_1B, 230); // originally 0
 
-  delay(2000);
+  delay(2000); // shortened delay from 5000 to 2000
 
+  // Turn the motor off after the delay finishes
   analogWrite(MOTOR_B_1A, 0);  
   analogWrite(MOTOR_B_1B, 0);
 
@@ -24,8 +26,3 @@ void setup() {
 void loop() {
 
 }
-
-// Note:
-// - Please modify the `analogWrite()`, swap the `analogWrite()`, and modify the `delay()`.
-// - You don't have to put anything in the loop.
-//      - If you would like to run the code again, please press the `RESET BUTTON` on your ESP32.*/
