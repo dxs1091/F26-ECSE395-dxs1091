@@ -12,3 +12,4 @@ ECSE 395 semester project. Each week, we will document the work completed, as we
 | [Week 3](Week3.md)  | Established our Project Background and Needs Statement, built out our user personas and affinity clustering board in Figma, and synthesized key stakeholder insights from user research |
 | [Week 4](Week4.md)  | Finalized and submitted the Functional & Technical Specs documentation, presented our Need-Finding findings to the class, and initiated scheduling with our stakeholder for the upcoming Concept Review |
 | [Week 5](Week5.md)  | Advanced from ideation to concept selection for the Brainstorming Milestone, finalizing Concepts 1–3 and preparing the presentation deck for Sunday’s stakeholder Concept Review |
+| [Week 6](Week6.md)  | Conducted our stakeholder Concept Review, finalized the Concept Selection & Gantt Chart milestone with some ideas for testing, and kicked off system architecture planning |
