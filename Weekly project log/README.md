@@ -14,6 +14,5 @@ ECSE 395 semester project. Each week, we will document the work completed, as we
 | [Week 5](Week5.md)  | Advanced from ideation to concept selection for the Brainstorming Milestone, finalizing Concepts 1–3 and preparing the presentation deck for Sunday’s stakeholder Concept Review |
 | [Week 6](Week6.md)  | Conducted our stakeholder Concept Review, finalized the Concept Selection & Gantt Chart milestone with some ideas for testing, and kicked off system architecture planning |
 | [Week 7](Week7.md)  | Finalized the System Architecture and Prototype Plan, divided into sub-teams to built and test initial prototypes |
+| [Week 8](Week8.md)  | Advanced our prototype development by establishing BLE architecture, connected a "basement" sensor node to an "upstairs" OLED display, preparing to parameterize system tuning |
 
-
-finalized the System Architecture and Prototype Plan, defined core system requirements and uncertainties, and divided into sub-teams to build and test initial hardware prototypes—including multi-sensor OLED displays and ambient LED notification patterns tailored to user routines.
