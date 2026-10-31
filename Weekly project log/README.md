@@ -16,3 +16,4 @@ ECSE 395 semester project. Each week, we will document the work completed, as we
 | [Week 7](Week7.md)  | Finalized the System Architecture and Prototype Plan, divided into sub-teams to built and test initial prototypes |
 | [Week 8](Week8.md)  | Advanced our prototype development by establishing BLE architecture, connected a "basement" sensor node to an "upstairs" OLED display, preparing to parameterize system tuning |
 | [Week 9](Week9.md)  | Shorter week, but finalized Prototypes 1 through 3 and prepared roles for the Midterm Group Presentation; individually worked on refining core state logic and playing with NeoPixel package |
+| [Week 10](Week10.md)  | Away this week, but individual efforts focused on shaping a "final product" with an enclosure and plans to have more rigorous edge-case validation take place |
